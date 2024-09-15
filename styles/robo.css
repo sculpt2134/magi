@@ -1,0 +1,31 @@
+
+/****************************************************************************************/
+/*marobo*/
+/****************************************************************************************/
+.progress-container {
+  width: 100%;
+  /* 프로그래스 배경 색상 */
+  background-color: #fe793622;
+  /* 상단에 위치하기 위함 */
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+}
+
+.progress-bar {
+  /* 프로그래스바 높이 */
+  height: 5px;
+  /* 프로그래스바 색상 */
+  background-color: #fe7a36;
+  width: 0;
+  transition: 0.15s;
+}
+.card-style.full{
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  margin:0;
+}
+
+.speech-left {
+  max-width: 280px;
+}
