@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>HCAU-PUBL</title>
+  <link rel="stylesheet" href="/static/html/pc/hyundai/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/static/html/pc/hyundai/css/styles.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+<body>
+    <div class="wrap">
+      <div class="HCAU-sidebar" include-html="/static/html/pc/hyundai/aside.html"></div>
+      <div class="HCAU-menubar" include-html="/static/html/pc/hyundai/menu.html"></div>
+
+      <div class="HCAU-container">
+            <div class="HCAU-contents" id="contents">
+                <!-- HCAU-breadcrumb -->
+                <div class="HCAU-breadcrumb" include-html="/static/html/pc/hyundai/breadcrumb.html"></div>
+            <!-- //HCAU-breadcrumb -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////START PAGE CONTENTS/////////////////////////////////////////////////////// -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<!-- HCAU-title -->
+<div class="HCAU-title">
+    <!-- class option : border-bottom -->
+    <div class="HCAU-h1">Payment Transactions & Statements</div>
+</div>
+<!--//HCAU-title-->
+
+<!-- HCAU-detail -->
+<div class="HCAU-detail">
+
+    <section>
+        <div class="HCAU-search-bar d-flex g12 justify-content-between">
+            <div class="d-flex g20">
+                <div class="radio-group">
+                    <div class="radio-group-inner">
+                        <div>
+                            <input type="radio" class="btn-check" name="options-base" id="option1" autocomplete="off">
+                            <label class="HCAU-btn btn-smd" for="option1">1 mo.</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="btn-check" name="options-base" id="option2" autocomplete="off">
+                            <label class="HCAU-btn btn-smd" for="option2">3 mo.</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="btn-check" name="options-base" id="option3" autocomplete="off">
+                            <label class="HCAU-btn btn-smd" for="option3">6 mo.</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="btn-check" name="options-base" id="option4" autocomplete="off" checked>
+                            <label class="HCAU-btn btn-smd" for="option4">Manually</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex g08 rg0 align-items-top flex-wrap w300">
+                    <div id="sandbox2" class="calendar flex-fix">
+                        <input type="text" class="HCAU-form form-control date" value="19/01/2023">
+                        <span>
+                            <img src="/static/html/pc/hyundai/img/svg/ico_calendar.svg" alt="">
+                        </span>
+                        <div class="toggle-button"></div>
+                    </div>
+                    <div class="h44 d-flex align-items-center">
+                        <div>~</div>
+                    </div>
+                    <div id="sandbox2" class="calendar flex-fix">
+                        <input type="text" class="HCAU-form form-control date" value="19/01/2023">
+                        <span>
+                            <img src="/static/html/pc/hyundai/img/svg/ico_calendar.svg" alt="">
+                        </span>
+                        <div class="toggle-button"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown flex-fix d-flex g12">
+                <input type="text" class="form-control HCAU-form flex-grow-1" placeholder="Enter contract number" value="">
+                <button type="button" class="HCAU-btn btn-smd fw-bold">Search</button>
+            </div>
+        </div>
+        <div class="HCAU-search-bar d-flex g12 justify-content-between mt20">
+            <div class="d-flex g20">
+                <div class="radio-group">
+                    <div class="radio-group-inner">
+                        <div>
+                            <input type="radio" class="btn-check" name="options-base2" id="option5" autocomplete="off" checked>
+                            <label class="HCAU-btn btn-smd" for="option5">1 mo.</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="btn-check" name="options-base2" id="option6" autocomplete="off">
+                            <label class="HCAU-btn btn-smd" for="option6">3 mo.</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="btn-check" name="options-base2" id="option7" autocomplete="off">
+                            <label class="HCAU-btn btn-smd" for="option7">6 mo.</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="btn-check" name="options-base2" id="option8" autocomplete="off">
+                            <label class="HCAU-btn btn-smd" for="option8">Manually</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex g08 rg0 align-items-top flex-wrap w300">
+                    <div id="sandbox2" class="calendar flex-fix">
+                        <input type="text" class="HCAU-form form-control date" value="19/01/2023" disabled>
+                        <span>
+                            <img src="/static/html/pc/hyundai/img/svg/ico_calendar_readonly.svg" alt="">
+                        </span>
+                        <div class="toggle-button"></div>
+                    </div>
+                    <div class="h44 d-flex align-items-center">
+                        <div>~</div>
+                    </div>
+                    <div id="sandbox2" class="calendar flex-fix">
+                        <input type="text" class="HCAU-form form-control date" value="19/01/2023" disabled>
+                        <span>
+                            <img src="/static/html/pc/hyundai/img/svg/ico_calendar_readonly.svg" alt="">
+                        </span>
+                        <div class="toggle-button"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown flex-fix d-flex g12">
+                <input type="text" class="form-control HCAU-form flex-grow-1" placeholder="Enter contract number" value="">
+                <button type="button" class="HCAU-btn btn-smd fw-bold">Search</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="">
+            <div class="d-flex align-items-end">
+                <div class="HCAU-txt-sm fw-bold">10/11/2022 ~ 09/05/2023</div>
+                <div class="ms-auto d-flex gap-2">
+                    <div>
+                        <button type="button" class="HCAU-btn btn-sm">Download</button>
+                    </div>
+                    <div>
+                        <button type="button" class="HCAU-btn btn-sm">E-mail</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-3">
+            <div class="HCAU-nodata type02 flex-column border-top border-bottom">
+                <img src="/static/html/pc/hyundai/img/svg/ico_no_matches_hd02.svg" alt="">
+                <div class="HCAU-txt-sm">No matches found.</div>
+            </div>
+            <div class="HCAU-table type03">
+                <table class="table">
+                    <colgroup>
+                        <col style="width:130px;">
+                        <col style="width:160px;">
+                        <col style="width:120px;">
+                        <col style="width:120px;">
+                        <col>
+                        <col style="width:140px;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="align-middle text-center">Deposit date</th>
+                            <th scope="col" class="align-middle text-center">Contract number</th>
+                            <th scope="col" class="align-middle  text-center">Type</th>
+                            <th scope="col" class="align-middle  text-center">Method</th>
+                            <th scope="col" class="align-middle  text-center">Detail</th>
+                            <th scope="col" class="align-middle  text-center">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">11/11/2022</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">12345678912345</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Deposit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Direct debit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">100***********9</span>
+                            </td>
+                            <td class="align-middle text-end">
+                                <span class="HCAU-txt-sm fw-bold">$ 8,797.00</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">11/11/2022</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">12345678912345</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Deposit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Direct debit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">100***********9</span>
+                            </td>
+                            <td class="align-middle text-end">
+                                <span class="HCAU-txt-sm fw-bold">$ 8,797.00</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">11/11/2022</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">12345678912345</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Deposit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Direct debit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">100***********9</span>
+                            </td>
+                            <td class="align-middle text-end">
+                                <span class="HCAU-txt-sm fw-bold">$ 8,797.00</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">11/11/2022</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">12345678912345</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Deposit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">BPAY</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">182731827312311​</span>
+                            </td>
+                            <td class="align-middle text-end">
+                                <span class="HCAU-txt-sm fw-bold">$ 8,797.00</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">11/11/2022</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">12345678912345</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Deposit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">BPAY</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Biller Code 18273</span>
+                            </td>
+                            <td class="align-middle text-end">
+                                <span class="HCAU-txt-sm fw-bold">$ 8,797.00</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">11/11/2022</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">12345678912345</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Refund</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">Direct debit</span>
+                            </td>
+                            <td class="align-middle">
+                                <span class="HCAU-txt-sm">100***********9</span>
+                            </td>
+                            <td class="align-middle text-end">
+                                <span class="HCAU-txt-sm fw-bold point-red">$ -8,797.00</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="HCAU-pagination">
+            <div class="inner">
+                <ul class="arrow">
+                    <li class="arrow"><a href=""><img src="/static/html/pc/hyundai/img/svg/ico_pagination_01.svg" alt="First"></a></li>
+                    <li class="arrow"><a href=""><img src="/static/html/pc/hyundai/img/svg/ico_pagination_02.svg" alt="Prev"></a></li>
+                </ul>
+                <ul class="page">
+                    <li class="page active"><a href="" class="HCAU-txt-md fw500">1</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">2</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">3</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">4</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">5</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">6</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">7</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">8</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">9</a></li>
+                    <li class="page"><a href="" class="HCAU-txt-md fw500">10</a></li>
+                </ul>
+                <ul class="arrow">
+                    <li class="arrow"><a href=""><img src="/static/html/pc/hyundai/img/svg/ico_pagination_03.svg" alt="Next"></a></li>
+                    <li class="arrow"><a href=""><img src="/static/html/pc/hyundai/img/svg/ico_pagination_04.svg" alt="Last"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="g-notice">
+        <dl>
+            <dt>
+                <span class="ico-gnotice"><img src="/static/html/pc/hyundai/img/svg/ico_notice.svg" alt=""></span>
+                <span>Guidance Notice</span>
+            </dt>
+            <dd>
+                <ul class="HCAU-bullet-list">
+                    <li>
+                        Payment details over the last five years are available only.
+                    </li>
+                    <li>
+                        You might not get search results when payments have been delayed by banks or any errors have occurred.
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <!-- <div class="d-flex gap-3 mt20">
+        <div class="border-box edge flex-fix p-4">
+            <p class="HCAU-txt-sm">Do you want to check the products you are currently using?</p>
+            <p class="pt12"><a href="#none" class="link">Product usage details</a></p>
+        </div>
+        <div class="border-box edge flex-fix p-4">
+            <p class="HCAU-txt-sm">Do you want full or partial reimbursement for each product you are using?</p>
+            <p class="pt12"><a href="#none" class="link">Early payout</a></p>
+        </div>
+    </div> -->
+
+
+</div>
+<!--// HCAU-detail -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////END PAGE CONTENTS//////////////////////////////////////////////////////// -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+</div><!--//HCAU-contents-->
+<footer class="HCAU-footer" include-html="/static/html/pc/hyundai/footer.html"></footer>
+</div><!--//HCAU-contentainer-->
+</div><!--//wrap-->
+<script src="/static/html/pc/hyundai/js/bootstrap.bundle.min.js"></script>
+<script src="/static/html/pc/hyundai/js/main.js"></script>
+<script src="/static/html/pc/hyundai/js/includeHTML.js"></script>
+<script src="/static/html/pc/hyundai/js/includeRouter.js"></script>
+<script>
+includeHTML();
+</script>
+</body>
+</html>

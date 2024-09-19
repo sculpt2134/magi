@@ -1,0 +1,188 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width">
+    <title>HCAU-PUBL</title>
+    <link rel="stylesheet" href="/static/html/m/kia/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/html/m/kia/css/styles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+
+<body>
+    <div class="wrap">
+        <script type="text/javascript" src="/static/html/m/kia/js/Header.js"></script>
+
+        <!-- HCAU-container -->
+        <div class="HCAU-container">
+            <div class="HCAU-contents" id="contents">
+                <!-- HCAU-title -->
+                <div class="HCAU-title">
+                    <div class="HCAU-h1">Statement preferences</div>
+                    <div class="HCAU-txt-md gray04">You can change the email address that receives a billing statement of the lease product you have chosen.</div>
+                </div>
+                <!-- //HCAU-title -->
+                <!-- HCAU-detail -->
+                <div class="HCAU-detail">
+
+                    <div class="item card-list border-box px-3 pt-3 pb20">
+                        <div>
+                            <!-- <button class="HCAU-btn btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">open bottom sheet</button> -->
+                            <button class="HCAU-btn dropdown-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom">
+                                New Car Loan_Standard - Contract number - SANTAFE
+                            </button>
+                            <div class="HCAU-bottom-sheet offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                                <div class="offcanvas-header">
+                                    <!-- <h5 class="offcanvas-title" id="offcanvasBottomLabel">bottom sheet title</h5> -->
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                                        <img src="/static/html/m/kia/img/ico_modal_close.svg" alt="Close">
+                                    </button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="bottom-sheet-item">
+                                        <li><a href="#none" class="HCAU-txt-sm">Select object 1</a></li>
+                                        <li><a href="#none" class="HCAU-txt-sm">Select object 2</a></li>
+                                        <li><a href="#none" class="HCAU-txt-sm">Select object 3</a></li>
+                                        <li><a href="#none" class="HCAU-txt-sm">Select object 4</a></li>
+                                        <li><a href="#none" class="HCAU-txt-sm">Select object 5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt20">
+                            <div class="d-flex justify-content-between">
+                                <span class="HCAU-txt-sm">Existing E-mail</span>
+                                <span class="HCAU-txt-sm text-end fw-bold">abc@hcs.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt52">
+                        <div class="HCAU-form-wrap">
+                            <div class="form-title HCAU-txt-md fw-bold">Reception status</div>
+                            <div>
+                                <div class="d-flex border-top border-bottom p-3 g40 HCAU-tab-radio3">
+                                    <div class="form-check">
+                                        <input class="form-check-input HCAU-form" type="radio" name="exampleRadios" id="exampleRadios1" checked="" value="tab-nosend">
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            No Send
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input HCAU-form" type="radio" name="exampleRadios" id="exampleRadios2" value="tab-email">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            E-mail
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-radio-cont">
+                            <div class="mt20 tab-nosend">
+                                <div class="HCAU-form-wrap">
+                                    <div class="form-title HCAU-txt-md fw-bold">Email address</div>
+                                    <div>
+                                        <div class="d-flex g12">
+                                            <div class="flex-grow-1">
+                                                <input type="text" class="form-control HCAU-form" id="form-txt01" aria-describedby="" value="abc@hcs.com" placeholder="Enter email address" readonly>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="HCAU-btn btn-smd" style="width: 77px">Send</button>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex g12 mt12">
+                                            <div class="flex-grow-1 position-relative">
+                                                <input type="text" class="form-control HCAU-form time-limit" id="form-txt01" aria-describedby="" value="" placeholder="Enter OTP code">
+                                                <span class="time-limit-num HCAU-txt-sm">2:59</span>
+                                                <div class="invalid-feedback" style="display: block;">invalid message1</div>
+                                                <div class="invalid-feedback" style="display: block;">invalid message2</div>
+                                                <div class="invalid-feedback" style="display: block;">invalid message3</div>
+                                                <div class="invalid-feedback" style="display: block;">invalid message4</div>
+                                                <div class="valid-feedback" style="display: block;">valid message</div>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="HCAU-btn btn-smd" style="width: 77px">OK</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt20 tab-email" style="display: none;">
+                                <div class="HCAU-form-wrap">
+                                    <div class="form-title HCAU-txt-md fw-bold">Change email address</div>
+                                    <div>
+                                        <div class="d-flex g12">
+                                            <div class="flex-grow-1">
+                                                <input type="text" class="form-control HCAU-form" id="form-txt01" aria-describedby="" value="" placeholder="Enter email address">
+                                            </div>
+                                            <div>
+                                                <button type="button" class="HCAU-btn btn-smd" style="width: 77px">Send</button>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex g12 mt12">
+                                            <div class="flex-grow-1 position-relative">
+                                                <input type="text" class="form-control HCAU-form time-limit" id="form-txt01" aria-describedby="" value="" placeholder="Enter OTP code">
+                                                <span class="time-limit-num HCAU-txt-sm">2:59</span>
+                                                <div class="invalid-feedback" style="display: block;">invalid message1</div>
+                                                <div class="invalid-feedback" style="display: block;">invalid message2</div>
+                                                <div class="invalid-feedback" style="display: block;">invalid message3</div>
+                                                <div class="invalid-feedback" style="display: block;">invalid message4</div>
+                                                <div class="valid-feedback" style="display: block;">valid message</div>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="HCAU-btn btn-smd" style="width: 77px">OK</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="g-notice border-top-dashed">
+                        <dl>
+                            <dt>
+                                <span class="ico-gnotice"><img src="/static/html/m/kia/img/ico_notice.svg" alt=""></span>
+                                <span class="HCAU-txt-sm">Guidance Notice</span>
+                            </dt>
+                            <dd>
+                                <ul class="HCAU-bullet-list">
+                                    <li class="HCAU-txt-sm">
+                                        We do not issue billing statements for loans on a regular basis. You can download a billing statement for each payment number on billing statement page.
+                                        <a href="" class="link">Billing statement</a>
+                                    </li>
+                                    <li class="HCAU-txt-sm">
+                                        The email address that you want us to send a billing statement to can be different from the one in your personal information.
+                                    </li>
+                                    <li class="HCAU-txt-sm">
+                                        If you want to change the email address to access our Customer Portal with, go to<br>
+                                        <a href="" class="link ms-auto">View personal information</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+
+                </div>
+                <!-- //HCAU-detail -->
+            </div>
+        </div>
+        <!-- //HCAU-container -->
+
+        <!-- btn-cta-wrap -->
+        <div class="btn-cta-wrap">
+            <button type="button" class="HCAU-btn btn-cta gray03">Cancel</button>
+            <button type="button" class="HCAU-btn btn-cta primary">Change</button>
+        </div>
+        <!-- //btn-cta-wrap -->
+
+        <script type="text/javascript" src="/static/html/m/kia/js/Footer.js"></script>
+    </div>
+    <!-- <script src="/static/html/m/kia/js/jquery-3.3.1.min.js"></script> -->
+    <script src="/static/html/m/kia/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="/static/html/m/kia/js/main.js"></script>
+</body>
+
+</html>

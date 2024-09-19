@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>GENESIS-PUBL</title>
+  <link rel="stylesheet" href="/static/html/pc/genesis/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/static/html/pc/genesis/css/styles.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+<body>
+    <div class="wrap">
+      <div class="HCAU-sidebar" include-html="/static/html/pc/genesis/aside.html"></div>
+      <div class="HCAU-menubar" include-html="/static/html/pc/genesis/menu.html"></div>
+
+      <div class="HCAU-container">
+            <div class="HCAU-contents" id="contents">
+                <!-- HCAU-breadcrumb -->
+                <div class="HCAU-breadcrumb" include-html="/static/html/pc/genesis/breadcrumb.html"></div>
+            <!-- //HCAU-breadcrumb -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////START PAGE CONTENTS/////////////////////////////////////////////////////// -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<!-- HCAU-title -->
+<div class="HCAU-title">
+    <!-- class option : border-bottom -->
+    <div class="HCAU-h1">Forgot my Password</div>
+    <div class="HCAU-txt-md">To retrieve your password, please complete your details below </div>
+</div>
+<!-- //HCAU-title -->
+
+<!-- HCAU-detail -->
+<div class="HCAU-detail">
+
+    <form class="HCAU-valid needs-validation row gx-20 gy-28 mt-2" novalidate="">
+        <div class="col-md-12 mt0">
+            <label for="validationCustom01" class="HCAU-txt-md fw-bold mb-3">New password</label>
+            <input type="text" class="form-control HCAU-form" placeholder="8 to 12 characters of combination of English letters/numbers/special characters" id="validationCustom01" value="" required="">
+            <div class="invalid-feedback">invalid message1.</div>
+            <label for="validationCustom02" class="mt28 HCAU-txt-md fw-bold mb-3">New password confirmation</label>
+            <input type="text" class="form-control HCAU-form is-invalid" placeholder="8 to 12 characters of combination of English letters/numbers/special characters" id="validationCustom02" value="" required="">
+            <div class="invalid-feedback d-block">invalid message1.</div>
+
+        </div>
+
+        <div class="cta-btn-wrap">
+            <div class="d-flex g12 justify-content-center">
+                <!-- <button type="button" class="HCAU-btn btn-large">List</button> -->
+                <button type="button" class="HCAU-btn btn-large primary">Reset</button>
+                <!-- <button type="submit" class="HCAU-btn btn-large primary">Reset</button> -->
+            </div>
+        </div>
+<div style="height:300px"></div>
+    </form>
+
+</div>
+<!-- HCAU-detail -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////END PAGE CONTENTS//////////////////////////////////////////////////////// -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+            </div><!--//HCAU-contents-->
+        </div><!--//HCAU-contentainer-->
+    </div><!--//wrap-->
+    <footer include-html="/static/html/pc/genesis/footer.html"></footer>
+<script src="/static/html/pc/genesis/js/bootstrap.bundle.min.js"></script>
+<script src="/static/html/pc/genesis/js/main.js"></script>
+<script src="/static/html/pc/genesis/js/includeHTML.js"></script>
+<script src="/static/html/pc/genesis/js/includeRouter.js"></script>
+<script>
+includeHTML( function () {
+includeRouter( function () {
+});
+});
+
+</script>
+<script>
+    const wrapper = document.querySelector('.wrapper');
+    const nav = document.querySelector('.nav');
+
+    const stickyNav = nav.getBoundingClientRect().top;
+
+    // give this a negative number to make the header
+    // snap to the top of the page before touching it
+    const offset = 50;
+
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset >= stickyNav + offset) {
+          nav.classList.add('sticky');
+        } else {
+          nav.classList.remove('sticky');
+        }
+    });
+    </script>
+</body>
+
+</html>
